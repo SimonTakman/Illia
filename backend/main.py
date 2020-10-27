@@ -41,3 +41,8 @@ def read_item(item_id: int, q: Optional[str] = None):
 def give_largest_number(number: int):
     lnumber = largestNumber(number)
     return {"number": lnumber}
+
+@app.get("/bmi/{weight}/{height}")
+def calcBMI(weight: int, height: int):
+    BMI = calculateBMI(weight, height)
+    return {"bmi": BMI}
