@@ -10,5 +10,11 @@ Install needed python3 dependencies:
 To run the app:
 `uvicorn main:app --reload`
 
+## Test API
+
+To test:
+`curl --location --request GET 'http://localhost:8000/bmi/45/145'`
+
+
 ## Sources
 - https://fastapi.tiangolo.com/
