@@ -5,13 +5,14 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import {Home} from './routes/Home'
 
 import {About} from "./components/About"
 
 export default function App() {
   return (
     <Router>
-      <div>
+      {/* <div>
         <nav>
           <ul>
             <li>
@@ -24,7 +25,7 @@ export default function App() {
               <Link to="/users">Users</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -39,14 +40,11 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
-      </div>
+      {/* </div> */}
     </Router>
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
 
 function Users() {
   return <h2>Users</h2>;
