@@ -69,9 +69,17 @@ export const DateText = styled.p`
   font-size: 15px;
   font-weight: 300;
   color: #565566;
+  margin: 0;
 `;
 export const LocationText = styled.p`
   font-size: 15px;
   font-weight: 500;
   color: #565566;
+  margin: 0;
+  margin-bottom: 12px;
+`;
+
+export const WeatherList = styled.div`
+  display: flex;
+  justify-content: space-evenly;
 `;

@@ -14,11 +14,15 @@ import {
   FoodImage,
   TitleWrapper,
   DateText,
-  LocationText
+  LocationText,
+  WeatherList
 } from "./Home.styles";
 import { Link } from "react-router-dom";
 import { TabBar } from "../components/TabBar";
-
+import { WeatherIcon } from "../components/WeatherIcon";
+import { Sun } from "../icons/Sun";
+import {SunCloud} from '../icons/SunCloud'
+import {Cloud} from '../icons/Cloud'
 export const Home = (props: any) => {
   const image = { src: "./broccolipudding.jpg", alt: "broccolipudding" };
   return (
@@ -28,16 +32,15 @@ export const Home = (props: any) => {
         <Title>Good morning</Title>
         <DateText>Today: 24 October 2020</DateText>
         <LocationText>Göteborg</LocationText>
+        <WeatherList>
+          <WeatherIcon title={"Morning"}><Sun/></WeatherIcon>
+          <WeatherIcon title={"Lunch"}><SunCloud/></WeatherIcon>
+          <WeatherIcon title={"Afternoon"}><Cloud/></WeatherIcon>
+          <WeatherIcon title={"Evening"}><SunCloud/></WeatherIcon>
+        </WeatherList>
         </TitleWrapper>
         <ActivityWrapper>
-          <ActivityTitle>3 activities of the day</ActivityTitle>
-          <ActivityItemList>
-            <ActivityItem>1. Go out in the sun before lunch</ActivityItem>
-            <ActivityItem>2. Talk to someone you care about</ActivityItem>
-            <ActivityItem>
-              3. Call someone you haven't talked to in a while
-            </ActivityItem>
-          </ActivityItemList>
+          
         </ActivityWrapper>
         <InspirationWrapper>
           <InspirationTitle>
