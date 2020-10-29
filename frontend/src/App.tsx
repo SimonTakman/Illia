@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import {Home} from './routes/Home'
+import {GetStarted} from './routes/GetStarted'
 
 import {About} from "./components/About"
 
@@ -36,8 +37,11 @@ export default function App() {
           <Route path="/users">
             <Users />
           </Route>
-          <Route path="/">
+          <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/">
+            <GetStarted />
           </Route>
         </Switch>
       {/* </div> */}

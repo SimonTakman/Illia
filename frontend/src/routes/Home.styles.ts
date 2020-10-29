@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: grid;
-  grid-template-rows: 64px auto 96px;
+  grid-template-rows: 16px auto 96px;
   grid-template-columns: 16px auto 16px;
   height: 100vh;
 `;
@@ -11,7 +11,7 @@ export const Content = styled.div`
   display: grid;
   grid-row-start: 2;
   grid-column-start: 2;
-  grid-template-rows: 96px 256px auto;
+  grid-template-rows: 160px 256px auto;
   width: 100%;
   height: 100%;
 `;
@@ -20,7 +20,9 @@ export const Title = styled.h1`
   font-family: "Roboto";
   font-weight: 700;
   color: #565566;
-  margin-bottom: 32px;
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 12px;
 `;
 
 export const ActivityWrapper = styled.div``;
@@ -62,3 +64,14 @@ export const TabBarWrapper = styled.div`
 `;
 
 export const TitleWrapper = styled.div``;
+
+export const DateText = styled.p`
+  font-size: 15px;
+  font-weight: 300;
+  color: #565566;
+`;
+export const LocationText = styled.p`
+  font-size: 15px;
+  font-weight: 500;
+  color: #565566;
+`;

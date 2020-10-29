@@ -13,6 +13,8 @@ import {
   ButtonWrapper,
   FoodImage,
   TitleWrapper,
+  DateText,
+  LocationText
 } from "./Home.styles";
 import { Link } from "react-router-dom";
 import { TabBar } from "../components/TabBar";
@@ -23,7 +25,9 @@ export const Home = (props: any) => {
     <Wrapper>
       <Content>
         <TitleWrapper>
-        <Title>Good morning!</Title>
+        <Title>Good morning</Title>
+        <DateText>Today: 24 October 2020</DateText>
+        <LocationText>Göteborg</LocationText>
         </TitleWrapper>
         <ActivityWrapper>
           <ActivityTitle>3 activities of the day</ActivityTitle>
