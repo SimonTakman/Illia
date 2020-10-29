@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: grid;
-  grid-template-rows: 64px auto 64px;
+  grid-template-rows: 64px auto 96px;
   grid-template-columns: 16px auto 16px;
   height: 100vh;
 `;
@@ -52,4 +52,8 @@ export const FoodImage = styled.img`
   height: auto;
   max-height: 200px;
   margin-bottom: 24px;
+`;
+
+export const TabBarWrapper = styled.div`
+  grid-row-start: 3;
 `;

@@ -11,12 +11,14 @@ import {
   InspirationWrapper,
   InspirationTitle,
   ButtonWrapper,
-  FoodImage
+  FoodImage,
+  TabBarWrapper,
 } from "./Home.styles";
 import { Link } from "react-router-dom";
+import { TabBar } from "../components/TabBar";
 
 export const Home = (props: any) => {
-  const image = { src: './broccolipudding.jpg', alt: 'broccolipudding' }
+  const image = { src: "./broccolipudding.jpg", alt: "broccolipudding" };
   return (
     <Wrapper>
       <Content>
@@ -38,14 +40,15 @@ export const Home = (props: any) => {
           <InspirationTitle>
             Broccolipudding is the recept of today
           </InspirationTitle>
-          <FoodImage src={image.src} alt={image.alt}/>
+          <FoodImage src={image.src} alt={image.alt} />
           <ButtonWrapper>
-          <Link to="/about">
-            <Button label={"Next"} />
-          </Link>
+            <Link to="/about">
+              <Button label={"Next"} />
+            </Link>
           </ButtonWrapper>
         </InspirationWrapper>
       </Content>
+      <TabBar />
     </Wrapper>
   );
 };
