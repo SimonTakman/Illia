@@ -42,20 +42,6 @@ export const Home = (props: any) => {
         <ActivityWrapper>
           
         </ActivityWrapper>
-        <InspirationWrapper>
-          <InspirationTitle>
-            Vitamin D is great for your health
-          </InspirationTitle>
-          <InspirationTitle>
-            Broccolipudding is the recept of today
-          </InspirationTitle>
-          <FoodImage src={image.src} alt={image.alt} />
-          <ButtonWrapper>
-            <Link to="/about">
-              <Button label={"Next"} />
-            </Link>
-          </ButtonWrapper>
-        </InspirationWrapper>
       </Content>
       <TabBar />
     </Wrapper>

@@ -1,17 +1,13 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  display: grid;
-  grid-template-rows: 16px auto 96px;
-  grid-template-columns: 16px auto 16px;
   height: 100vh;
 `;
 
 export const Content = styled.div`
   display: grid;
-  grid-row-start: 2;
-  grid-column-start: 2;
-  grid-template-rows: 160px 256px auto;
+  margin-top: 24px;
+  grid-template-rows: 240px auto;
   width: 100%;
   height: 100%;
 `;
@@ -25,7 +21,11 @@ export const Title = styled.h1`
   margin-bottom: 12px;
 `;
 
-export const ActivityWrapper = styled.div``;
+export const ActivityWrapper = styled.div`
+  border-top-right-radius: 48px;
+  border-top-left-radius: 48px;
+  background-color: #d4f5e9;
+`;
 
 export const ActivityTitle = styled.h4``;
 
@@ -63,7 +63,9 @@ export const TabBarWrapper = styled.div`
   grid-row-start: 3;
 `;
 
-export const TitleWrapper = styled.div``;
+export const TitleWrapper = styled.div`
+  margin: 0 12px;
+`;
 
 export const DateText = styled.p`
   font-size: 15px;
