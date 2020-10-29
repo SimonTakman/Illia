@@ -12,7 +12,7 @@ import {
   InspirationTitle,
   ButtonWrapper,
   FoodImage,
-  TabBarWrapper,
+  TitleWrapper,
 } from "./Home.styles";
 import { Link } from "react-router-dom";
 import { TabBar } from "../components/TabBar";
@@ -22,7 +22,9 @@ export const Home = (props: any) => {
   return (
     <Wrapper>
       <Content>
+        <TitleWrapper>
         <Title>Good morning!</Title>
+        </TitleWrapper>
         <ActivityWrapper>
           <ActivityTitle>3 activities of the day</ActivityTitle>
           <ActivityItemList>

@@ -17,6 +17,9 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.h1`
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #565566;
   margin-bottom: 32px;
 `;
 
@@ -57,3 +60,5 @@ export const FoodImage = styled.img`
 export const TabBarWrapper = styled.div`
   grid-row-start: 3;
 `;
+
+export const TitleWrapper = styled.div``;
