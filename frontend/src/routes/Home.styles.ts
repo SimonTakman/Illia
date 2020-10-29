@@ -6,8 +6,7 @@ export const Wrapper = styled.div`
 
 export const Content = styled.div`
   display: grid;
-  margin-top: 24px;
-  grid-template-rows: 240px auto;
+  grid-template-rows: 264px auto;
   width: 100%;
   height: 100%;
 `;
@@ -17,7 +16,7 @@ export const Title = styled.h1`
   font-weight: 700;
   color: #565566;
   font-size: 42px;
-  margin-top: 0;
+  margin-top: 24px;
   margin-bottom: 12px;
 `;
 

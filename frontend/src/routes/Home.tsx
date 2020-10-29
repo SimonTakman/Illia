@@ -23,6 +23,7 @@ import { WeatherIcon } from "../components/WeatherIcon";
 import { Sun } from "../icons/Sun";
 import {SunCloud} from '../icons/SunCloud'
 import {Cloud} from '../icons/Cloud'
+import {ActivityContainer} from '../components/ActivityContainer'
 export const Home = (props: any) => {
   const image = { src: "./broccolipudding.jpg", alt: "broccolipudding" };
   return (
@@ -40,7 +41,7 @@ export const Home = (props: any) => {
         </WeatherList>
         </TitleWrapper>
         <ActivityWrapper>
-          
+          <ActivityContainer></ActivityContainer>
         </ActivityWrapper>
       </Content>
       <TabBar />
