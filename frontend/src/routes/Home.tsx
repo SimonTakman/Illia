@@ -1,23 +1,14 @@
 import React from "react";
-import { Button } from "../components/Button";
 import {
-  ActivityTitle,
   ActivityWrapper,
   Content,
   Wrapper,
   Title,
-  ActivityItem,
-  ActivityItemList,
-  InspirationWrapper,
-  InspirationTitle,
-  ButtonWrapper,
-  FoodImage,
   TitleWrapper,
   DateText,
   LocationText,
   WeatherList
 } from "./Home.styles";
-import { Link } from "react-router-dom";
 import { TabBar } from "../components/TabBar";
 import { WeatherIcon } from "../components/WeatherIcon";
 import { Sun } from "../icons/Sun";
@@ -25,7 +16,6 @@ import {SunCloud} from '../icons/SunCloud'
 import {Cloud} from '../icons/Cloud'
 import {ActivityContainer} from '../components/ActivityContainer'
 export const Home = (props: any) => {
-  const image = { src: "./broccolipudding.jpg", alt: "broccolipudding" };
   return (
     <Wrapper>
       <Content>

@@ -3,53 +3,32 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import {Home} from './routes/Home'
 import {GetStarted} from './routes/GetStarted'
-
-import {About} from "./components/About"
+import {Help} from './routes/Help'
+import { UnderConstruction } from "./routes/UnderConstruction";
 
 export default function App() {
   return (
     <Router>
-      {/* <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav> */}
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-            <About title="This is about our product"/>
+          <Route path="/help">
+            <Help/>
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/evening">
+            <UnderConstruction/>
           </Route>
-          <Route path="/home">
+          <Route path="/calendar">
+            <UnderConstruction/>
+          </Route>
+          <Route path="/morning">
             <Home />
           </Route>
           <Route path="/">
             <GetStarted />
           </Route>
         </Switch>
-      {/* </div> */}
     </Router>
   );
-}
-
-
-function Users() {
-  return <h2>Users</h2>;
 }

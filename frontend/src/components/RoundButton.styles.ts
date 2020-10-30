@@ -9,9 +9,3 @@ export const Button = styled.button`
   padding: 0 82px;
   border: 0;
 `;
-
-export const Wrapper = styled.div`
-  position: absolute;
-  bottom: 48px;
-  left: 68px;
-`;
