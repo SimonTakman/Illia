@@ -23,6 +23,12 @@ Part of Nordic Health Hackathon 2020
 <br/>
 <img src="./readme_assets/illia_start_screen.png" width="250"/> <img src="./readme_assets/illia_1.png"  width="250"/><br/><br/> <img src="./readme_assets/illia_2.png" alt="drawing" width="250"/> <img src="./readme_assets/illia_3.png" alt="drawing" width="250"/><br/><br/><img src="./readme_assets/illia_4.png" alt="drawing" width="250"/>
 
+## Test application
+<hr/>
+<br/>
+
+Open your mobile browser and go to [http://illia.netlify.app/](http://illia.netlify.app/).
+
 ## Setup and Run
 <hr/>
 <br/>
