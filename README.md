@@ -29,6 +29,6 @@ Open your mobile browser and go to [http://illia.netlify.app/](http://illia.netl
 
 ## Setup and Run
 
-For frontend: Go to `./frontend` folder and follow the instructions from [README.md](/frontend/README.md).
+For frontend: Go to `frontend/` folder and follow the instructions from [README.md](/frontend/README.md).
 
-For backend: Go to `./backend` folder and follow the instructions from [README.md](/backend/README.md).
+For backend: Go to `backend/` folder and follow the instructions from [README.md](/backend/README.md).
