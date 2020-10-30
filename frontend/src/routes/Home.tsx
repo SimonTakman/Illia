@@ -21,7 +21,7 @@ export const Home = (props: any) => {
       <Content>
         <TitleWrapper>
         <Title>Good morning</Title>
-        <DateText>Today: 24 October 2020</DateText>
+        <DateText>Today: 30 October 2020</DateText>
         <LocationText>Göteborg</LocationText>
         <WeatherList>
           <WeatherIcon title={"Morning"}><Sun/></WeatherIcon>

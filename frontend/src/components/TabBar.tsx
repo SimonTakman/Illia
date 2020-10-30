@@ -8,7 +8,7 @@ import {TabItem} from './TabItem'
 export const TabBar = (props: any) => {
 
     return <Wrapper>
-        <TabItem route={"/"} text="Morning"><Morning/></TabItem>
+        <TabItem route={"/morning"} text="Morning"><Morning/></TabItem>
         <TabItem route={"/evening"} text="Evening"><Evening/></TabItem>
         <TabItem route={"/calendar"} text="Calendar"><Calendar/></TabItem>
         <TabItem route={"/help"} text="Help"><Help/></TabItem>
