@@ -9,7 +9,7 @@ Part of Nordic Health Hackathon 2020
 <br/>
 <br/>
 
-Pitch video (click on the photo):<br/>
+Pitch video (click on the photo below):<br/><br/>
 [![Illia video](https://img.youtube.com/vi/8ljoUrHfF7E/0.jpg)](https://www.youtube.com/watch?v=8ljoUrHfF7E)
 
 
