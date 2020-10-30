@@ -15,8 +15,6 @@ Video of the project:<br/><br/>
 
 
 ## Team
-<hr/>
-<br/>
 
 * [Brittany Van Dyk](https://github.com/britvandyk)
 * [Florian Wachter](https://github.com/FloWachter)
@@ -24,23 +22,16 @@ Video of the project:<br/><br/>
 * [Simon Takman](https://github.com/SimonTakman)
 
 ## Design
-<hr>
-<br/>
 <img src="./readme_assets/illia_start_screen.png" width="250"/> <img src="./readme_assets/illia_1.png"  width="250"/><br/><br/> <img src="./readme_assets/illia_2.png" alt="drawing" width="250"/> <img src="./readme_assets/illia_3.png" alt="drawing" width="250"/><br/><br/><img src="./readme_assets/illia_4.png" alt="drawing" width="250"/>
 
 <br/>
 <br/>
 
 ## Test application
-<hr/>
-
-
 Open your mobile browser and go to [http://illia.netlify.app/](http://illia.netlify.app/).
 
 
 ## Setup and Run
-<hr/>
-
 
 For frontend: Go to `./frontend` folder and follow the instructions from [README.md](/frontend/README.md).
 
